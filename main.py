@@ -6,7 +6,7 @@ import utils
 import pandas
 
 
-getRepo = GitRepository(path=".")
+getRepo = GitRepository(path="./tiedot")
 commits = getRepo.get_list_commits()
 
 
@@ -26,7 +26,7 @@ while 1:
     res = []
     files_last = []
     for i in range(0, commmits_count-delta, delta):
-        metric = CommitsCount(path_to_repo='.',
+        metric = CommitsCount(path_to_repo='./tiedot',
                               from_commit=commits_hash[i],
                               to_commit=commits_hash[i+delta])
 
