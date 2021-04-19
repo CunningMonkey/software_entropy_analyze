@@ -20,7 +20,7 @@ last_date = commits[commmits_count-1].committer_date
 
 
 # by commit counts
-delta = 1
+delta = 10
 while 1:
     print("commits delta: {}\n".format(delta))
     res = []
