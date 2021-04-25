@@ -19,28 +19,32 @@ class Analyzer:
         self.last_date = self.commits[len(self.commits)-1].committer_date
         self.auto = auto
         self.deltas = []
+        self.frequency = [50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150]
         if auto:
-            frequency = [50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150]
             time_length = self.last_date - self.first_date
-            for item in frequency:
+            for item in self.frequency:
                 self.deltas.append(time_length/item)
         else:
             self.deltas = deltas
 
     def run(self):
 
-        for delta in self.deltas:
-            print("git path: {}, time delta: {}\n".format(self.path, delta))
-
-            res = self.caculate(delta)
+        for i, delta in enumerate(self.deltas):
+            print("project name: {}, round:{}, git path: {}, time delta: {}\n".format(
+                self.name, i, self.path, delta))
+            res = self.caculate(delta, self.frequency[i])
 
             self.writeToExcel(res, delta)
 
-    def caculate(self, delta):
+    def caculate(self, delta, frequency):
         res = []
         commit_time1 = self.first_date
         files_last = []
+        i = 0
         while 1:
+            i += 1
+            if i % 10 == 0:
+                print("now at :{}%{}\n".format(i, frequency))
             commit_time2 = commit_time1 + delta
             metric = CommitsCount(path_to_repo=self.path,
                                   since=commit_time1,
