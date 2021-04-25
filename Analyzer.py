@@ -8,39 +8,40 @@ import os
 
 
 class Analyzer:
-    def __init__(self, name, path, delta_delta, start_delta, end_delta):
+    def __init__(self, name, path, auto, deltas=None):
         self.name = name
         self.path = path
-        self.delta_delta = delta_delta
-        self.start_delta = start_delta
-        self.end_delta = end_delta
         gitRepo = GitRepository(path=path)
         commits = gitRepo.get_list_commits()
         self.commits = [commit for commit in commits]
         # self.commits_hash = [commit.hash for commit in commits]
         self.first_date = self.commits[0].committer_date
         self.last_date = self.commits[len(self.commits)-1].committer_date
+        self.auto = auto
+        self.deltas = []
+        if auto:
+            frequency = [50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150]
+            time_length = self.last_date - self.first_date
+            for item in frequency:
+                self.deltas.append(time_length/item)
+        else:
+            self.deltas = deltas
 
     def run(self):
-        delta = self.start_delta
 
-        while 1:
+        for delta in self.deltas:
             print("git path: {}, time delta: {}\n".format(self.path, delta))
 
             res = self.caculate(delta)
 
             self.writeToExcel(res, delta)
 
-            delta += self.delta_delta
-            if delta > self.end_delta:
-                break
-
     def caculate(self, delta):
         res = []
         commit_time1 = self.first_date
         files_last = []
         while 1:
-            commit_time2 = commit_time1 + datetime.timedelta(days=delta)
+            commit_time2 = commit_time1 + delta
             metric = CommitsCount(path_to_repo=self.path,
                                   since=commit_time1,
                                   to=commit_time2)
