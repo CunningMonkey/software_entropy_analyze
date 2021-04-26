@@ -5,6 +5,7 @@ import pandas
 import utils
 import datetime
 import os
+import logging
 
 
 class Analyzer:
@@ -26,11 +27,15 @@ class Analyzer:
                 self.deltas.append(time_length/item)
         else:
             self.deltas = deltas
+        
+        self.logger = logging.getLogger('Analyzer')
+        logging.basicConfig(level=logging.CRITICAL,filename='software.log',filemode='a')
+
 
     def run(self):
 
         for i, delta in enumerate(self.deltas):
-            print("project name: {}, round:{}, git path: {}, time delta: {}\n".format(
+            self.logger.critical("project name: {}, round:{}, git path: {}, time delta: {}\n".format(
                 self.name, i, self.path, delta))
             res = self.caculate(delta, self.frequency[i])
 
@@ -43,7 +48,7 @@ class Analyzer:
         
         for i in range(0, frequency):
             if i % 10 == 0:
-                print("now at :{}%{}\n".format(i, frequency))
+                self.logger.critical("now at :{}%{}\n".format(i, frequency))
             commit_time2 = commit_time1 + delta
             metric = CommitsCount(path_to_repo=self.path,
                                   since=commit_time1,
