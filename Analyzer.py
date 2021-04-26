@@ -40,9 +40,8 @@ class Analyzer:
         res = []
         commit_time1 = self.first_date
         files_last = []
-        i = 0
-        while 1:
-            i += 1
+        
+        for i in range(0, frequency):
             if i % 10 == 0:
                 print("now at :{}%{}\n".format(i, frequency))
             commit_time2 = commit_time1 + delta
