@@ -29,7 +29,7 @@ class Analyzer:
             self.deltas = deltas
         
         self.logger = logging.getLogger('Analyzer')
-        logging.basicConfig(level=logging.CRITICAL,filename='software.log',filemode='a')
+        logging.basicConfig(level=logging.CRITICAL,filename='software.log',filemode='w')
 
 
     def run(self):

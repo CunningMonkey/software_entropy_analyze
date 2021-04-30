@@ -1,4 +1,242 @@
-CRITICAL:Analyzer:project name: tensorflow1.3, round:0, git path: ../tensorflow/, time delta: 14 days, 5:10:41.740000
+CRITICAL:Analyzer:project name: tensorflow1.15, round:0, git path: ./tensorflow/, time delta: 37 days, 17:11:48.880000
 
 CRITICAL:Analyzer:now at :0%50
+
+CRITICAL:Analyzer:now at :10%50
+
+CRITICAL:Analyzer:now at :20%50
+
+CRITICAL:Analyzer:now at :30%50
+
+CRITICAL:Analyzer:now at :40%50
+
+CRITICAL:Analyzer:project name: tensorflow1.15, round:1, git path: ./tensorflow/, time delta: 31 days, 10:19:50.733333
+
+CRITICAL:Analyzer:now at :0%60
+
+CRITICAL:Analyzer:now at :10%60
+
+CRITICAL:Analyzer:now at :20%60
+
+CRITICAL:Analyzer:now at :30%60
+
+CRITICAL:Analyzer:now at :40%60
+
+CRITICAL:Analyzer:now at :50%60
+
+CRITICAL:Analyzer:project name: tensorflow1.15, round:2, git path: ./tensorflow/, time delta: 26 days, 22:34:09.200000
+
+CRITICAL:Analyzer:now at :0%70
+
+CRITICAL:Analyzer:now at :10%70
+
+CRITICAL:Analyzer:now at :20%70
+
+CRITICAL:Analyzer:now at :30%70
+
+CRITICAL:Analyzer:now at :40%70
+
+CRITICAL:Analyzer:now at :50%70
+
+CRITICAL:Analyzer:now at :60%70
+
+CRITICAL:Analyzer:project name: tensorflow1.15, round:3, git path: ./tensorflow/, time delta: 23 days, 13:44:53.050000
+
+CRITICAL:Analyzer:now at :0%80
+
+CRITICAL:Analyzer:now at :10%80
+
+CRITICAL:Analyzer:now at :20%80
+
+CRITICAL:Analyzer:now at :30%80
+
+CRITICAL:Analyzer:now at :40%80
+
+CRITICAL:Analyzer:now at :50%80
+
+CRITICAL:Analyzer:now at :60%80
+
+CRITICAL:Analyzer:now at :70%80
+
+CRITICAL:Analyzer:project name: tensorflow1.15, round:4, git path: ./tensorflow/, time delta: 20 days, 22:53:13.822222
+
+CRITICAL:Analyzer:now at :0%90
+
+CRITICAL:Analyzer:now at :10%90
+
+CRITICAL:Analyzer:now at :20%90
+
+CRITICAL:Analyzer:now at :30%90
+
+CRITICAL:Analyzer:now at :40%90
+
+CRITICAL:Analyzer:now at :50%90
+
+CRITICAL:Analyzer:now at :60%90
+
+CRITICAL:Analyzer:now at :70%90
+
+CRITICAL:Analyzer:now at :80%90
+
+CRITICAL:Analyzer:project name: tensorflow1.15, round:5, git path: ./tensorflow/, time delta: 18 days, 20:35:54.440000
+
+CRITICAL:Analyzer:now at :0%100
+
+CRITICAL:Analyzer:now at :10%100
+
+CRITICAL:Analyzer:now at :20%100
+
+CRITICAL:Analyzer:now at :30%100
+
+CRITICAL:Analyzer:now at :40%100
+
+CRITICAL:Analyzer:now at :50%100
+
+CRITICAL:Analyzer:now at :60%100
+
+CRITICAL:Analyzer:now at :70%100
+
+CRITICAL:Analyzer:now at :80%100
+
+CRITICAL:Analyzer:now at :90%100
+
+CRITICAL:Analyzer:project name: tensorflow1.15, round:6, git path: ./tensorflow/, time delta: 17 days, 3:27:11.309091
+
+CRITICAL:Analyzer:now at :0%110
+
+CRITICAL:Analyzer:now at :10%110
+
+CRITICAL:Analyzer:now at :20%110
+
+CRITICAL:Analyzer:now at :30%110
+
+CRITICAL:Analyzer:now at :40%110
+
+CRITICAL:Analyzer:now at :50%110
+
+CRITICAL:Analyzer:now at :60%110
+
+CRITICAL:Analyzer:now at :70%110
+
+CRITICAL:Analyzer:now at :80%110
+
+CRITICAL:Analyzer:now at :90%110
+
+CRITICAL:Analyzer:now at :100%110
+
+CRITICAL:Analyzer:project name: tensorflow1.15, round:7, git path: ./tensorflow/, time delta: 15 days, 17:09:55.366667
+
+CRITICAL:Analyzer:now at :0%120
+
+CRITICAL:Analyzer:now at :10%120
+
+CRITICAL:Analyzer:now at :20%120
+
+CRITICAL:Analyzer:now at :30%120
+
+CRITICAL:Analyzer:now at :40%120
+
+CRITICAL:Analyzer:now at :50%120
+
+CRITICAL:Analyzer:now at :60%120
+
+CRITICAL:Analyzer:now at :70%120
+
+CRITICAL:Analyzer:now at :80%120
+
+CRITICAL:Analyzer:now at :90%120
+
+CRITICAL:Analyzer:now at :100%120
+
+CRITICAL:Analyzer:now at :110%120
+
+CRITICAL:Analyzer:project name: tensorflow1.15, round:8, git path: ./tensorflow/, time delta: 14 days, 12:09:09.569231
+
+CRITICAL:Analyzer:now at :0%130
+
+CRITICAL:Analyzer:now at :10%130
+
+CRITICAL:Analyzer:now at :20%130
+
+CRITICAL:Analyzer:now at :30%130
+
+CRITICAL:Analyzer:now at :40%130
+
+CRITICAL:Analyzer:now at :50%130
+
+CRITICAL:Analyzer:now at :60%130
+
+CRITICAL:Analyzer:now at :70%130
+
+CRITICAL:Analyzer:now at :80%130
+
+CRITICAL:Analyzer:now at :90%130
+
+CRITICAL:Analyzer:now at :100%130
+
+CRITICAL:Analyzer:now at :110%130
+
+CRITICAL:Analyzer:now at :120%130
+
+CRITICAL:Analyzer:project name: tensorflow1.15, round:9, git path: ./tensorflow/, time delta: 13 days, 11:17:04.600000
+
+CRITICAL:Analyzer:now at :0%140
+
+CRITICAL:Analyzer:now at :10%140
+
+CRITICAL:Analyzer:now at :20%140
+
+CRITICAL:Analyzer:now at :30%140
+
+CRITICAL:Analyzer:now at :40%140
+
+CRITICAL:Analyzer:now at :50%140
+
+CRITICAL:Analyzer:now at :60%140
+
+CRITICAL:Analyzer:now at :70%140
+
+CRITICAL:Analyzer:now at :80%140
+
+CRITICAL:Analyzer:now at :90%140
+
+CRITICAL:Analyzer:now at :100%140
+
+CRITICAL:Analyzer:now at :110%140
+
+CRITICAL:Analyzer:now at :120%140
+
+CRITICAL:Analyzer:now at :130%140
+
+CRITICAL:Analyzer:project name: tensorflow1.15, round:10, git path: ./tensorflow/, time delta: 12 days, 13:43:56.293333
+
+CRITICAL:Analyzer:now at :0%150
+
+CRITICAL:Analyzer:now at :10%150
+
+CRITICAL:Analyzer:now at :20%150
+
+CRITICAL:Analyzer:now at :30%150
+
+CRITICAL:Analyzer:now at :40%150
+
+CRITICAL:Analyzer:now at :50%150
+
+CRITICAL:Analyzer:now at :60%150
+
+CRITICAL:Analyzer:now at :70%150
+
+CRITICAL:Analyzer:now at :80%150
+
+CRITICAL:Analyzer:now at :90%150
+
+CRITICAL:Analyzer:now at :100%150
+
+CRITICAL:Analyzer:now at :110%150
+
+CRITICAL:Analyzer:now at :120%150
+
+CRITICAL:Analyzer:now at :130%150
+
+CRITICAL:Analyzer:now at :140%150
 
